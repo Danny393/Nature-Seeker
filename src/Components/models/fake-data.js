@@ -38,7 +38,7 @@ module.exports = {
     {
       name:"shoe1",
       sku:"00004",
-      image: "https://i.imgur.com/O5anRKy.jpg",
+      image: "https://dks.scene7.com/is/image/GolfGalaxy/15TLDMMTMDDSNMDWPFBO_Brown?qlt=70&wid=1100&fmt=webp",
       manufacturer:"Timberland",
       description:"lightweight and waterproof",
       price: 95.00,
@@ -49,7 +49,7 @@ module.exports = {
     {
       name:"shoe2",
       sku:"00005",
-      image: "https://i.imgur.com/m99ikTa.jpg",
+      image: "https://dks.scene7.com/is/image/GolfGalaxy/17CMBWNWTNRDGPLSMFBO_Black_Poppy_Red?qlt=70&wid=1100&fmt=webp",
       manufacturer:"Columbia",
       description:"Mesh with strong grip",
       price: 124.99,

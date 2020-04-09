@@ -9,7 +9,7 @@ function Main(){
         <Router>
             <NavBar/>
             <Switch>
-                <Route path = "/" exact Component = {LandingPage}/>
+                <Route path = "/" exact component = {LandingPage}/>
                 <Route path = "/about-us" exact />
                 <Route path = "/shoes" exact />
                 <Route path = "/backpacks" exact />
