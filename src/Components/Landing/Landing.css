@@ -17,10 +17,19 @@
 .item-card{
     margin-left: 15px;
     margin-right: 15px;
+    height: 240px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .display-grid-img{
     height: 250px;
     width: 200px;
     background-size: contain;
+}
+
+.page{
+    background-color: darkolivegreen;
 }

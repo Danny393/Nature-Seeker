@@ -1,10 +1,10 @@
 module.exports = {
   tents:[
     {
-      name:"tent1",
+      name:"North Face Sequoia 2 Person Tent",
       sku:"00001",
       manufacturer: "North Face",
-      image: "https://prodimage.images-bn.com/pimages/9780262033848_p0_v1_s550x406.jpg",
+      image: "https://dks.scene7.com/is/image/GolfGalaxy/18TNOUSQ2XXXXXXXXCAT_Papaya_Yellow_High_Rise_Grey?qlt=70&wid=1100&fmt=webp",
       description:"Tent made for one person",
       size: "S",
       price: 40.00,
@@ -15,7 +15,7 @@ module.exports = {
         name:"tent2",
         sku:"00002",
         manufacturer: "Field & Steam",
-        image: "https://prodimage.images-bn.com/pimages/9780262033848_p0_v1_s550x406.jpg",
+        image: "https://dks.scene7.com/is/image/GolfGalaxy/16FNSUFS7X6X463PRCAT_Orange?qlt=70&wid=1100&fmt=webp",
         description:"Spacious tent comfortable for two people",
         size: "L",
         price: 81.99,
@@ -26,7 +26,7 @@ module.exports = {
         name:"tent3",
         sku:"00003",
         manufacturer: "Coleman",
-        image: "https://prodimage.images-bn.com/pimages/9780262033848_p0_v1_s550x406.jpg",
+        image: "https://dks.scene7.com/is/image/GolfGalaxy/19COLUHMPTN9PTNTXCAT?qlt=70&wid=1100&fmt=webp",
         description:"Comfy tent that can fit a person with safety features",
         size: "M",
         price: 72.47,
@@ -60,7 +60,7 @@ module.exports = {
     {
       name:"shoe3",
       sku:"00006",
-      image: "https://www.dhresource.com/0x0/f2/albu/g9/M01/02/95/rBVaWFwR_nWAfkPFAAYIZWCWAhk407.jpg",
+      image: "https://dks.scene7.com/is/image/GolfGalaxy/17MRRWMB2VNTLMNMMFBO_Taupe?qlt=70&wid=1100&fmt=webp",
       manufacturer:"Merrell",
       description:"Ventilation focused boots",
       price: 85.99,
