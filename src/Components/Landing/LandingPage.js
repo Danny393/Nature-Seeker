@@ -20,12 +20,13 @@ class LandingPage extends React.Component
 
     render()
     {
+        console.log("Nice");
        return(
            <Container>
                <Col>
                <Row className = "item-rows">
                    {this.state.shoes.map((shoe) => (
-                   <Link to={{
+                   <Link key = {shoe.sku} to={{
                        pathname: "store/shoe/"+shoe.sku,
                        state: {sku: shoe.sku}
                     }}>
@@ -37,7 +38,7 @@ class LandingPage extends React.Component
                </Row>
                <Row className = "item-rows">
                    {this.state.tents.map((tent) => (
-                   <Link to={{
+                   <Link key = {tent.sku} to={{
                        pathname: "store/tent/"+tent.sku,
                        state: {sku: tent.sku}
                     }}>

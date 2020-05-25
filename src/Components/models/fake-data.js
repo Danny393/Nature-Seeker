@@ -1,7 +1,7 @@
 module.exports = {
   tents:[
     {
-      name:"North Face Sequoia 2 Person Tent",
+      name:"North Face Sequoia Tent",
       sku:"00001",
       manufacturer: "North Face",
       image: "https://dks.scene7.com/is/image/GolfGalaxy/18TNOUSQ2XXXXXXXXCAT_Papaya_Yellow_High_Rise_Grey?qlt=70&wid=1100&fmt=webp",
@@ -12,7 +12,7 @@ module.exports = {
       rating: 3.5,
     },
     {
-        name:"tent2",
+        name:"Feild & Steam Large Tent",
         sku:"00002",
         manufacturer: "Field & Steam",
         image: "https://dks.scene7.com/is/image/GolfGalaxy/16FNSUFS7X6X463PRCAT_Orange?qlt=70&wid=1100&fmt=webp",
@@ -23,7 +23,7 @@ module.exports = {
         rating: 4.5,
     },
     {
-        name:"tent3",
+        name:"Coleman Single Person Tent",
         sku:"00003",
         manufacturer: "Coleman",
         image: "https://dks.scene7.com/is/image/GolfGalaxy/19COLUHMPTN9PTNTXCAT?qlt=70&wid=1100&fmt=webp",

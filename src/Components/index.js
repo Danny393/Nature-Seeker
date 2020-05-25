@@ -1,6 +1,7 @@
 import React from 'react';
 import LandingPage from './Landing/LandingPage';
 import NavBar from './Navbar/NavBar';
+import ItemPage from './ItemDetails/ItemPage';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function Main(){
@@ -11,7 +12,7 @@ function Main(){
             <Switch>
                 <Route path = "/" exact component = {LandingPage}/>
                 <Route path = "/about-us" exact />
-                <Route path = "/shoes" exact />
+                <Route path = '/store/shoe/:shoeSKU' component = {ItemPage} />
                 <Route path = "/backpacks" exact />
                 <Route path = "/tents" exact />
                 <Route path = "/sleeping-bags" exact />
