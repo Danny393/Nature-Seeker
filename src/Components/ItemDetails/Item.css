@@ -1,0 +1,9 @@
+.item-image{
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 500px;
+    width: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

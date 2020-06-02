@@ -1,4 +1,5 @@
 import React from 'react';
+import './Item.css'
 import {Container, Row, Col} from 'react-bootstrap';
 
 const data = require("../models/fake-data");
@@ -24,11 +25,11 @@ class ItemPage extends React.Component
               break;
             }
           }
-        } else if (this.state.data.hasOwnProperty('shirtSKU')) {
-          var shirt;
-          for(shirt of data.shirts){
-            if(shirt.sku === this.state.data.shirtSKU){
-              this.setState({data: shirt});
+        } else if (this.state.data.hasOwnProperty('tentSKU')) {
+          var tent;
+          for(tent of data.tents){
+            if(tent.sku === this.state.data.tentSKU){
+              this.setState({data: tent});
               break;
             }
           }
@@ -38,10 +39,28 @@ class ItemPage extends React.Component
     render()
     {
         console.log(this.state.data);
+        this.getDataFromDB();
         return(
-            
-            <p></p>
-            
+            <Container>
+            <Row></Row>
+            <Row className="item-detail">
+              <Col xs={1}></Col>
+              <Col>
+                <Row>
+                  <Col>
+                    <div className="item-image" style = {{backgroundImage: "url("+ this.state.data.image + ")" }}></div>
+                  </Col>
+                  <Col>
+                    <div>
+                      <h3>{this.state.data.name}</h3>
+                      <h1>${this.state.data.price}</h1>
+                    </div>
+                  </Col>
+                </Row>
+              </Col>
+              <Col xs={1}></Col>
+            </Row>
+          </Container>
         );
     }
 }

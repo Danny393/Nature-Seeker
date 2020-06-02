@@ -13,8 +13,8 @@ function Main(){
                 <Route path = "/" exact component = {LandingPage}/>
                 <Route path = "/about-us" exact />
                 <Route path = '/store/shoe/:shoeSKU' component = {ItemPage} />
+                <Route path = '/store/tent/:tentSKU' component = {ItemPage} />
                 <Route path = "/backpacks" exact />
-                <Route path = "/tents" exact />
                 <Route path = "/sleeping-bags" exact />
                 <Route path = "/apparel" exact />
             </Switch>
