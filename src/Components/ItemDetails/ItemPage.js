@@ -42,7 +42,6 @@ class ItemPage extends React.Component
         this.getDataFromDB();
         return(
             <Container>
-            <Row></Row>
             <Row className="item-detail">
               <Col xs={1}></Col>
               <Col>
