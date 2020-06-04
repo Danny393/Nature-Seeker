@@ -14,27 +14,39 @@ class ItemPage extends React.Component
         };
 
         this.getDataFromDB = this.getDataFromDB.bind(this);
-      }
-    
-      getDataFromDB(){
-        if (this.state.data.hasOwnProperty('shoeSKU')) {
-          var shoe;
-          for(shoe of data.shoes){
-            if(shoe.sku === this.state.data.shoeSKU){
-              this.setState({data: shoe});
-              break;
+     }
+
+    /* this will be replaced later by a database call to Postgres*/
+    /* this function finds and pulls the record from the database */
+    getDataFromDB()
+    {
+        /* first check to see what type of product it is */
+        if (this.state.data.hasOwnProperty('shoeSKU')) 
+        {
+            /* then search for the exact match */
+            var shoe;
+            for(shoe of data.shoes)
+            {
+                if(shoe.sku === this.state.data.shoeSKU)
+                {
+                    this.setState({data: shoe});
+                    break;
+                }
             }
-          }
-        } else if (this.state.data.hasOwnProperty('tentSKU')) {
-          var tent;
-          for(tent of data.tents){
-            if(tent.sku === this.state.data.tentSKU){
-              this.setState({data: tent});
-              break;
+        } 
+        else if (this.state.data.hasOwnProperty('tentSKU')) 
+        {
+            var tent;
+            for(tent of data.tents)
+            {
+                if(tent.sku === this.state.data.tentSKU)
+                {
+                    this.setState({data: tent});
+                    break;
+                }
             }
-          }
         }
-      }
+    }
 
     render()
     {

@@ -36,7 +36,7 @@ module.exports = {
   ],
   shoes:[
     {
-      name:"shoe1",
+      name:"Timberland Mt. Maddsen",
       sku:"00004",
       image: "https://dks.scene7.com/is/image/GolfGalaxy/15TLDMMTMDDSNMDWPFBO_Brown?qlt=70&wid=1100&fmt=webp",
       manufacturer:"Timberland",
@@ -47,7 +47,7 @@ module.exports = {
       rating: 3.5,
     },
     {
-      name:"shoe2",
+      name:"Columbia Ridge Plus",
       sku:"00005",
       image: "https://dks.scene7.com/is/image/GolfGalaxy/17CMBWNWTNRDGPLSMFBO_Black_Poppy_Red?qlt=70&wid=1100&fmt=webp",
       manufacturer:"Columbia",
@@ -58,7 +58,7 @@ module.exports = {
       rating: 4.5,
     },
     {
-      name:"shoe3",
+      name:"Merrall Ventilators",
       sku:"00006",
       image: "https://dks.scene7.com/is/image/GolfGalaxy/17MRRWMB2VNTLMNMMFBO_Taupe?qlt=70&wid=1100&fmt=webp",
       manufacturer:"Merrell",
