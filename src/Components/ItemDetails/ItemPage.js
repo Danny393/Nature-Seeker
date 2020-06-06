@@ -63,8 +63,8 @@ class ItemPage extends React.Component
                   </Col>
                   <Col>
                     <div>
-                      <h3>{this.state.data.name}</h3>
-                      <h1>${this.state.data.price}</h1>
+                        <h3>{this.state.data.name}</h3>
+                        <h1>${this.state.data.price}</h1>
                     </div>
                   </Col>
                 </Row>
