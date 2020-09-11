@@ -42,8 +42,7 @@ class LandingPage extends React.Component
                         pathname: "store/tent/"+tent.sku,
                         state: {sku: tent.sku}
                         }}>
-                        <div className="item-card" style = {{backgroundImage: "url("+ tent.image + ")" }}>
-                        </div>
+                        <div className="item-card" style = {{backgroundImage: "url("+ tent.image + ")" }}></div>
                         <p>{tent.name}</p>
                     </Link>
                     ))}

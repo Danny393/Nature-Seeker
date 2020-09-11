@@ -1,3 +1,22 @@
 .page {
-    background-color: #2f4f4f;
-  }
+  background-color: #2f4f4f;
+}
+
+.Nav_Button {
+  background-color: rgb(197, 177, 0);
+  color: white;
+  border: 3px solid transparent;
+  border-radius: 5px;
+  padding: 4px 15px;
+}
+
+.Nav_Button:hover {
+  background-color: rgb(214, 197, 40);
+  border-color: transparent;
+}
+
+.Nav_Button:focus{
+  border-color: wheat;
+  outline-style: none;
+}
+

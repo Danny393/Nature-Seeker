@@ -11,7 +11,7 @@ class NavBar extends React.Component
         return(
             <Navbar variant = "dark" expand="lg" className = "page">
                 <Navbar.Brand href="/">Nature Seeker</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
                     <Nav.Link href="/about-us">About Us</Nav.Link>
@@ -25,7 +25,7 @@ class NavBar extends React.Component
                     </Nav>
                     <Form inline>
                         <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                        <Button variant="warning">Search</Button>
+                        <button type="button" className="Nav_Button">Search</button>
                         <Col>
                         <Button style = {{backgroundColor: "#2f4f4f", outlineColor: "#2f4f4f", borderColor: "#2f4f4f"}}>
                             <img src={image} alt = "Cart"/> (0)
