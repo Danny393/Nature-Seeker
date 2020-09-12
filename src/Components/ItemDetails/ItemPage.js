@@ -50,6 +50,7 @@ class ItemPage extends React.Component
 
     render()
     {
+        var quantity = 0;
         console.log(this.state.data);
         this.getDataFromDB();
         return(
@@ -57,17 +58,19 @@ class ItemPage extends React.Component
             <Row className="item-detail">
               <Col xs={1}></Col>
               <Col>
-                <Row>
-                  <Col>
-                    <div className="item-image" style = {{backgroundImage: "url("+ this.state.data.image + ")" }}></div>
-                  </Col>
-                  <Col>
-                    <div>
-                        <h3>{this.state.data.name}</h3>
-                        <h1>${this.state.data.price}</h1>
+                <div className="item-image" style = {{backgroundImage: "url("+ this.state.data.image + ")" }}></div>
+              </Col>
+              <Col>
+                <div className="item-details">
+                    <h3>{this.state.data.name}</h3>
+                    <h1>${this.state.data.price}</h1>
+                    <div className="item-quantity">
+                      <p>Quantity:</p>
+                      <form className="item-quantity-form">
+                        <p>{quantity}</p>
+                      </form>
                     </div>
-                  </Col>
-                </Row>
+                </div>
               </Col>
               <Col xs={1}></Col>
             </Row>
