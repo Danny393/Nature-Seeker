@@ -29,7 +29,7 @@
   "scripts": {
     "client": "react-scripts start",
     "start": "npm run client && npm run dbserver",
-    "dbserver": "./src/Components/models/cloud_sql_proxy -instances=nature-seeker-ecommerce:us-east1:react-db=tcp:5454 -credential_file=./src/Components/models/db-credentials.json",
+    "dbserver": "./src/Components/models/cloud_sql_proxy -instances=nature-seeker-ecommerce:us-east1:react-db=tcp:5432 -credential_file=./src/Components/models/db-credentials.json",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
