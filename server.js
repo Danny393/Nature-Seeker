@@ -1,5 +1,5 @@
 const Express = require('express');
-const GraphHTTP = require('express-graphql');
+const GraphHTTP = require('express-graphql').graphqlHTTP;
 const GraphSchema = require('./src/Components/models/GraphQLSchema');
 const cors = require('cors');
 const port = 4000;
@@ -11,7 +11,8 @@ api.use('/graphql', GraphHTTP({
     schema: GraphSchema,
     pretty: true,
     graphiql: true
-}));
+  }),
+);
 
 api.listen(port, () => {
     console.log('Server is running on port: ', port);

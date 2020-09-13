@@ -42,8 +42,8 @@ module.exports = {
       manufacturer:"Timberland",
       description:"lightweight and waterproof",
       price: 95.00,
-      sizes: ["XS", "S", "M", "L", "XL"],
-      qty: [12, 4, 1, 9, 3],
+      sizes: "M",
+      qty: 12,
       rating: 3.5,
     },
     {
@@ -53,8 +53,8 @@ module.exports = {
       manufacturer:"Columbia",
       description:"Mesh with strong grip",
       price: 124.99,
-      sizes: ["XS", "S", "M", "L", "XL"],
-      qty: [7, 3, 1, 18, 0],
+      sizes: "L",
+      qty: 10,
       rating: 4.5,
     },
     {

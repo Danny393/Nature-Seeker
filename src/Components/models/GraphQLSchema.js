@@ -160,7 +160,7 @@ const RootQuery = new GraphQLObjectType({
     description: 'This is the root query',
     fields: {
         shoes: {
-          type: new GraphQLList(Books),
+          type: new GraphQLList(Shoes),
           args: {
             id: {type: GraphQLID},
             name: {type: GraphQLString}
@@ -168,20 +168,28 @@ const RootQuery = new GraphQLObjectType({
           resolve(root, args){return SQLdb.models.shoes.findAll({where: args});}
         },
         manufacturers: {
-          type: new GraphQLList(Authors),
+          type: new GraphQLList(Manufacturers),
           args: {
             id: {type: GraphQLID}
           },
           resolve(root, args){return SQLdb.models.manufacturers.findAll({where: args});}
         },
         tents: {
-          type: new GraphQLList(Items),
+          type: new GraphQLList(Tents),
           args: {
             id: {type: GraphQLID},
             name: {type: GraphQLString}
           },
           resolve(root, args){return SQLdb.models.tents.findAll({where: args});}
         },
+        products: {
+            type: new GraphQLList(Products),
+            args: {
+                id: {type: GraphQLID},
+                name: {type: GraphQLString}
+            },
+            resolve(root, args){return SQLdb.models.products.findAll({where: args});}
+        } 
       }
   });
 
